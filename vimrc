@@ -1,7 +1,7 @@
 let g:rainbow_active = 1
 set laststatus=2
 map <C-o> :NERDTreeToggle<CR>
-set rtp+=/usr/bin/fzf
+source /usr/share/doc/fzf/examples/fzf.vim
 
 highlight GitGutterAdd    guifg=#009900 ctermfg=2
 highlight GitGutterChange guifg=#bbbb00 ctermfg=3
